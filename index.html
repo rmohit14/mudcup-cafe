@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MudCups Café – Reviving Traditional Taste | Coimbatore</title>
+  <meta name="description" content="MudCups Café in Coimbatore – a cozy rooftop café with earthy vibes, amazing hot chocolate, pizzas, momos, sandwiches and more. Open till 10:30 PM near VLB College."/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <a href="#home" class="nav-logo">
+    <div class="nav-logo-icon">☕</div>
+    <span class="nav-logo-text">Mud<span>Cups</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#specials">Specials</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact">Visit Us</a></li>
+    <li><a href="tel:06382243440" class="nav-cta">📞 Call Now</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about" class="mobile-link">Our Story</a>
+  <a href="#menu" class="mobile-link">Menu</a>
+  <a href="#specials" class="mobile-link">Specials</a>
+  <a href="#reviews" class="mobile-link">Reviews</a>
+  <a href="#contact" class="mobile-link">Visit Us</a>
+  <a href="tel:06382243440" class="mobile-link" style="color:var(--amber-light)">📞 Call Now</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-particles" id="particles"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge"><span class="dot"></span> Coimbatore's Favourite Rooftop Café</div>
+    <p class="hero-script">Welcome to</p>
+    <h1 class="hero-title">Mud<em>Cups</em></h1>
+    <p class="hero-subtitle">Reviving Traditional Taste — one earthy cup at a time. From South Indian filter coffee to loaded pizza, experience flavour in every bite.</p>
+    <p class="hero-location">📍 258, Kovaipudur Main Rd, near VLB College, Coimbatore</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn-primary">🍕 Explore Menu</a>
+      <a href="#contact" class="btn-secondary">📍 Get Directions</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+
+  <div class="hero-stats">
+    <div class="hero-stat-card">
+      <div class="hero-stat-num">4.8 ★</div>
+      <div class="hero-stat-label">Google Rating</div>
+    </div>
+    <div class="hero-stat-card">
+      <div class="hero-stat-num">2,100+</div>
+      <div class="hero-stat-label">Happy Reviews</div>
+    </div>
+    <div class="hero-stat-card">
+      <div class="hero-stat-num">₹1–200</div>
+      <div class="hero-stat-label">Pocket Friendly</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-images" data-reveal>
+        <img src="images/cafe-entrance.jpg" alt="MudCups Café entrance" class="about-img-main" onerror="this.src='images/hero-bg.jpg'"/>
+        <img src="images/cafe-lamps.jpg" alt="Cozy lamp ambience" class="about-img-secondary" onerror="this.src='images/hot-chocolate.jpg'"/>
+        <div class="about-badge-float">
+          <div class="num">4.8</div>
+          <div class="lbl">Star Rating</div>
+        </div>
+      </div>
+      <div data-reveal data-reveal-delay="2">
+        <p class="section-tag">Our Story</p>
+        <h2 class="section-title">A Cozy Corner <em>Worth Every Visit</em></h2>
+        <div class="timing-chip"><span class="dot"></span> Open Now · Closes 10:30 PM</div>
+        <p class="section-sub">MudCups is more than a café — it's an experience. Nestled near VLB College with a beautiful rooftop, warm hanging lamps, and lush greenery, every corner is designed to make you stay longer. We serve love in every cup and plate.</p>
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="about-feature-icon">🏔️</div>
+            <div class="about-feature-title">Mountain View Rooftop</div>
+            <div class="about-feature-text">Enjoy fresh air and scenic Coimbatore hills from our open rooftop.</div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">🌱</div>
+            <div class="about-feature-title">Earthy Aesthetic</div>
+            <div class="about-feature-text">Handcrafted decor, clay pots, and warm lights create a peaceful vibe.</div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">💰</div>
+            <div class="about-feature-title">Pocket Friendly</div>
+            <div class="about-feature-text">Great food starting at ₹25 — because good taste shouldn't cost a fortune.</div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">🤝</div>
+            <div class="about-feature-title">Warm Hospitality</div>
+            <div class="about-feature-text">Our team, led by Dheena bro, serves with a smile every single time.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SPECIALS ===== -->
+<section class="specials" id="specials">
+  <div class="container">
+    <div class="specials-header" data-reveal>
+      <p class="section-tag">Must Try</p>
+      <h2 class="section-title">Customer <em>Favourites</em></h2>
+      <p class="section-sub" style="margin:0 auto">The items our regulars keep coming back for — and for good reason!</p>
+    </div>
+    <div class="specials-grid">
+      <div class="special-card" data-reveal data-reveal-delay="1">
+        <div class="special-card-img-wrap">
+          <img src="images/hot-chocolate.jpg" alt="Hot Chocolate" class="special-card-img"/>
+          <span class="special-tag">⭐ Best Seller</span>
+        </div>
+        <div class="special-card-body">
+          <h3 class="special-card-name">Hot Chocolate</h3>
+          <p class="special-card-desc">Pure molten happiness — rich, deep, velvety hot chocolate that every visitor raves about. Rated 10/10 by our guests.</p>
+          <div class="special-card-footer">
+            <span class="special-card-price">₹95 <span>– Hot Choc Milk</span></span>
+            <span style="font-size:1.5rem">🍫</span>
+          </div>
+        </div>
+      </div>
+      <div class="special-card" data-reveal data-reveal-delay="2">
+        <div class="special-card-img-wrap">
+          <img src="images/pizza.jpg" alt="MudCups Pizza" class="special-card-img" onerror="this.src='images/hero-bg.jpg'"/>
+          <span class="special-tag">🔥 Popular</span>
+        </div>
+        <div class="special-card-body">
+          <h3 class="special-card-name">Mexican Pizza</h3>
+          <p class="special-card-desc">Surprisingly cheesy goodness at a great price — loaded with corn, jalapeños, and our signature sauces.</p>
+          <div class="special-card-footer">
+            <span class="special-card-price">₹230 <span>– Mexican</span></span>
+            <span style="font-size:1.5rem">🍕</span>
+          </div>
+        </div>
+      </div>
+      <div class="special-card" data-reveal data-reveal-delay="3">
+        <div class="special-card-img-wrap">
+          <img src="images/rose-milk.jpg" alt="Rose Milk" class="special-card-img"/>
+          <span class="special-tag">💖 Must Try</span>
+        </div>
+        <div class="special-card-body">
+          <h3 class="special-card-name">Rose Milk</h3>
+          <p class="special-card-desc">Chilled rose milk — sweet and soothing comfort in a glass. A must-try that customers can't stop recommending.</p>
+          <div class="special-card-footer">
+            <span class="special-card-price">₹120 <span>– Classic</span></span>
+            <span style="font-size:1.5rem">🌹</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section class="menu" id="menu">
+  <div class="container">
+    <div class="menu-header" data-reveal>
+      <p class="section-tag">Full Menu</p>
+      <h2 class="section-title">Something for <em>Everyone</em></h2>
+      <p class="section-sub" style="margin:0 auto">Explore our wide range — from crispy snacks to creamy pastas and refreshing drinks.</p>
+      <div class="menu-tabs" id="menuTabs">
+        <button class="menu-tab active" data-tab="drinks">☕ Drinks</button>
+        <button class="menu-tab" data-tab="snacks">🍟 Snacks</button>
+        <button class="menu-tab" data-tab="pizza">🍕 Pizza & Pasta</button>
+        <button class="menu-tab" data-tab="burgers">🍔 Burgers & Sandwiches</button>
+        <button class="menu-tab" data-tab="momos">🥟 Momos</button>
+        <button class="menu-tab" data-tab="maggi">🍜 Maggi</button>
+      </div>
+    </div>
+
+    <!-- DRINKS -->
+    <div class="menu-panel active" id="tab-drinks">
+      <h3 class="menu-section-title">☕ Hot Beverages</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">☕</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Special Filter Coffee</span><span class="menu-card-price">₹47</span></div><p class="menu-card-desc">Traditional South Indian filter coffee — strong decoction with thick milk and foam.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍵</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Ginger Tea</span><span class="menu-card-price">₹40</span></div><p class="menu-card-desc">Kadak tea brewed with fresh ginger — great for a mood lift.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌹</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Rose Tea</span><span class="menu-card-price">₹52</span></div><p class="menu-card-desc">Mildly flavoured tea infused with rose essence — light and aromatic.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍫</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Chocolate Tea</span><span class="menu-card-price">₹70</span></div><p class="menu-card-desc">Chai with a rich chocolatey twist — sweet, smooth and satisfying.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌸</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Masala Tea</span><span class="menu-card-price">₹32</span></div><p class="menu-card-desc">Classic chai brewed with ginger, clove and cardamom — bold desi flavour.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍵</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Hot Chocolate Milk</span><span class="menu-card-price">₹95</span></div><p class="menu-card-desc">Hot milk mixed with chocolate syrup — sweet and comforting.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌿</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Honey Lemon Tea</span><span class="menu-card-price">₹40</span></div><p class="menu-card-desc">Hot water with tea, lemon, and honey — perfect for throat and detox.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">💛</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Jaggery Coffee</span><span class="menu-card-price">₹48</span></div><p class="menu-card-desc">Filter coffee sweetened with jaggery — healthy twist with earthy taste.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+      <h3 class="menu-section-title">🧋 Milkshakes</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🍫</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Chocolate Milkshake</span><span class="menu-card-price">₹130</span></div><p class="menu-card-desc">Thick shake made with real cocoa — every sip is indulgent.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍪</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Oreo Milkshake</span><span class="menu-card-price">₹145</span></div><p class="menu-card-desc">Crushed Oreos in creamy milkshake — cookies & cream heaven.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍬</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Signature Lotus Biscoff</span><span class="menu-card-price">₹215</span></div><p class="menu-card-desc">Premium shake with crushed Biscoff and caramel — rich and addictive.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🥭</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mango Milkshake</span><span class="menu-card-price">₹120</span></div><p class="menu-card-desc">Fresh mango flavour with chilled milk — seasonal and sweet.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+      <h3 class="menu-section-title">🧊 Cold Beverages</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🌹</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Rose Milk</span><span class="menu-card-price">₹120</span></div><p class="menu-card-desc">Chilled milk with rose syrup — sweet and soothing.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">☕</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Cold Coffee</span><span class="menu-card-price">₹135</span></div><p class="menu-card-desc">Chilled coffee with milk and sugar — strong and creamy.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍋</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Watermelon Mojito</span><span class="menu-card-price">₹123</span></div><p class="menu-card-desc">Chilled watermelon juice with mint and soda — super refreshing. Non-Alcoholic.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌿</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Green Virgin Mojito</span><span class="menu-card-price">₹123</span></div><p class="menu-card-desc">Mint, lime, and soda — zingy and cool. Non-Alcoholic.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">💙</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Blue Lagoon Mojito</span><span class="menu-card-price">₹123</span></div><p class="menu-card-desc">Electric blue cooler with mint, lime, and fizz — eye-catching and tasty.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🥭</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mango Lassi</span><span class="menu-card-price">₹119</span></div><p class="menu-card-desc">Mango pulp mixed with lassi — fruity and delicious.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">☕</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Hazelnut Cold Coffee</span><span class="menu-card-price">₹165</span></div><p class="menu-card-desc">Cold coffee with hazelnut syrup — nutty, rich, modern café-style.</p></div></div>
+      </div>
+    </div>
+
+    <!-- SNACKS -->
+    <div class="menu-panel" id="tab-snacks">
+      <h3 class="menu-section-title">🍟 Fries & Sides</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🍟</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Plain French Fries</span><span class="menu-card-price">₹129</span></div><p class="menu-card-desc">Classic golden fries lightly salted and crispy.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌶️</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Peri Peri Fries</span><span class="menu-card-price">₹139</span></div><p class="menu-card-desc">Fries tossed in spicy peri peri powder — zesty and hot.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧀</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Cheese Peri Peri Fries</span><span class="menu-card-price">₹199</span></div><p class="menu-card-desc">Peri peri fries topped with melted cheese — hot and cheesy combo.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🔥</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Loaded Fries</span><span class="menu-card-price">₹225</span></div><p class="menu-card-desc">Fully loaded fries with cheese, mayo, chicken/veggies, and sauces.</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌽</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Crispy Corn</span><span class="menu-card-price">₹145</span></div><p class="menu-card-desc">Fried sweet corn tossed with masala and herbs — crunchy and spicy.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧅</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Onion Rings</span><span class="menu-card-price">₹120</span></div><p class="menu-card-desc">Crispy fried onion rings — golden, perfect for dipping.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🥔</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Potato Wedges</span><span class="menu-card-price">₹140</span></div><p class="menu-card-desc">Thick-cut potato wedges fried to perfection — crispy and soft.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌽</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Corn Cheese Nuggets</span><span class="menu-card-price">₹149</span></div><p class="menu-card-desc">Golden nuggets with cheesy corn filling — perfect with ketchup.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+      <h3 class="menu-section-title">🍞 Buns & Eggs</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🍫</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mud Cups Special Choco Bun</span><span class="menu-card-price">₹115</span></div><p class="menu-card-desc">Our signature chocolate-filled bun — gooey, rich, and delicious.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍳</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Masala Omelette</span><span class="menu-card-price">₹75</span></div><p class="menu-card-desc">Spiced-up with onion, green chilli, and coriander.</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🥐</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Bun Nutella</span><span class="menu-card-price">₹99</span></div><p class="menu-card-desc">Soft bun stuffed with Nutella — perfect chocolate treat.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌸</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Bun Gulkand</span><span class="menu-card-price">₹85</span></div><p class="menu-card-desc">Bun filled with rose-flavored gulkand — sweet and aromatic.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+    </div>
+
+    <!-- PIZZA & PASTA -->
+    <div class="menu-panel" id="tab-pizza">
+      <h3 class="menu-section-title">🍕 Pizzas</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🌶️</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mexican Pizza</span><span class="menu-card-price">₹230</span></div><p class="menu-card-desc">Spicy, loaded with corn, jalapeños, and cheese — Mexican twist.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍕</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Italian Pizza</span><span class="menu-card-price">₹250</span></div><p class="menu-card-desc">Classic pizza with tomato sauce, cheese, olives, and herbs.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌽</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Corn Cheese Pizza</span><span class="menu-card-price">₹270</span></div><p class="menu-card-desc">Cheesy pizza topped with sweet corn — sweet and savory combo.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧀</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Paneer Pizza</span><span class="menu-card-price">₹270</span></div><p class="menu-card-desc">Tandoori paneer chunks on a cheesy pizza base — Desi-style favourite.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧀</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Double Cheese Margherita</span><span class="menu-card-price">₹332</span></div><p class="menu-card-desc">Soft crust loaded with double layer of cheese — pure cheesy indulgence.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🫒</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Greek Pizza</span><span class="menu-card-price">₹335</span></div><p class="menu-card-desc">Olives, feta, bell peppers, and herbs — Mediterranean flavour.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+      <h3 class="menu-section-title">🍝 Pastas</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🍝</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Creamy White Sauce Pasta</span><span class="menu-card-price">₹289</span></div><p class="menu-card-desc">Pasta in rich, cheesy white sauce with herbs and veggies — smooth and comforting.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍅</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Pink Sauce Pasta</span><span class="menu-card-price">₹299</span></div><p class="menu-card-desc">Vibrant pink sauce from fresh tomatoes and bell peppers with garlic and chili.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+    </div>
+
+    <!-- BURGERS & SANDWICHES -->
+    <div class="menu-panel" id="tab-burgers">
+      <h3 class="menu-section-title">🥪 Sandwiches</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🥪</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Chilli Cheese Sandwich</span><span class="menu-card-price">₹160</span></div><p class="menu-card-desc">Spicy green chillies and melted cheese — heat and creaminess combo.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌽</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Corn Peri Peri Cheese Sandwich</span><span class="menu-card-price">₹170</span></div><p class="menu-card-desc">Sweet corn in peri peri spice loaded with cheese — fiery and creamy.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍫</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Death By Chocolate Sandwich</span><span class="menu-card-price">₹148</span></div><p class="menu-card-desc">Loaded with chocolate spread, choco chips — a true chocoholic's dream.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🥜</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Peanut Nutella Sandwich</span><span class="menu-card-price">₹130</span></div><p class="menu-card-desc">Crunchy peanut butter meets creamy Nutella — sweet and nutty.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍗</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Chicken Cheese Sandwich</span><span class="menu-card-price">₹199</span></div><p class="menu-card-desc">Juicy chicken filling with gooey cheese in grilled sandwich bread.</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧀</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Paneer Cheese Sandwich</span><span class="menu-card-price">₹160</span></div><p class="menu-card-desc">Paneer masala with melted cheese — grilled to perfection.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+      <h3 class="menu-section-title">🍔 Burgers</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🍔</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mud Cups Special Veg Burger</span><span class="menu-card-price">₹155</span></div><p class="menu-card-desc">Signature veg burger with crunchy patty, cheese, and our secret sauce.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🏰</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Veg Tower Burger</span><span class="menu-card-price">₹220</span></div><p class="menu-card-desc">Tall burger with stacked patties, cheese, sauces — messy in the best way!</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍗</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mud Cups Special Chicken Burger</span><span class="menu-card-price">₹230</span></div><p class="menu-card-desc">Signature chicken burger with juicy patty, mayo, and spicy twist.</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🔥</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mud Cups Chicken Tower Burger</span><span class="menu-card-price">₹269</span></div><p class="menu-card-desc">Double chicken patties, cheese, sauces — real hunger buster!</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🥔</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Veg Aloo Tikki Burger</span><span class="menu-card-price">₹148</span></div><p class="menu-card-desc">Crispy aloo tikki with mayo and veggies — classic Indian-style burger.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+    </div>
+
+    <!-- MOMOS -->
+    <div class="menu-panel" id="tab-momos">
+      <h3 class="menu-section-title">🥟 Steamed &amp; Fried Momos</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🥟</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Veg Fried Momos (6 pcs)</span><span class="menu-card-price">₹155</span></div><p class="menu-card-desc">Crispy fried dumplings with veggie stuffing — served with spicy chutney.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🥟</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Veg Steamed Momos (6 pcs)</span><span class="menu-card-price">₹155</span></div><p class="menu-card-desc">Soft steamed momos filled with seasoned vegetables.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍗</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Classic Chicken Fried Momos (6 pcs)</span><span class="menu-card-price">₹190</span></div><p class="menu-card-desc">Golden fried momos stuffed with spicy minced chicken.</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌶️</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Chicken Peri Peri Fried Momos (6 pcs)</span><span class="menu-card-price">₹199</span></div><p class="menu-card-desc">Peri peri flavoured chicken inside crispy fried momos — spicy and addictive.</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🔥</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Chicken Tikka Fried Momos (6 pcs)</span><span class="menu-card-price">₹210</span></div><p class="menu-card-desc">Tandoori chicken-stuffed momos deep-fried for extra crunch.</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧀</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Paneer Tikka Fried Momos (6 pcs)</span><span class="menu-card-price">₹160</span></div><p class="menu-card-desc">Paneer tikka-stuffed momos deep-fried for a smoky, crispy bite.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍄</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mushroom Fried Momos (6 pcs)</span><span class="menu-card-price">₹160</span></div><p class="menu-card-desc">Fried momos packed with spicy mushroom filling — crunchy and rich.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🍄</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Mushroom Steamed Momos (6 pcs)</span><span class="menu-card-price">₹160</span></div><p class="menu-card-desc">Steamed dumplings filled with mushrooms and herbs.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+    </div>
+
+    <!-- MAGGI -->
+    <div class="menu-panel" id="tab-maggi">
+      <h3 class="menu-section-title">🍜 Maggi Varieties</h3>
+      <div class="menu-grid">
+        <div class="menu-card"><div class="menu-card-icon">🍜</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Veg Maggi</span><span class="menu-card-price">₹80</span></div><p class="menu-card-desc">Classic Maggi with mixed vegetables and Indian masala.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌶️</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Peri Peri Maggi</span><span class="menu-card-price">₹90</span></div><p class="menu-card-desc">Maggi tossed in spicy peri peri — fiery twist to your favourite noodles.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧀</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Cheese Maggi</span><span class="menu-card-price">₹115</span></div><p class="menu-card-desc">Hot Maggi topped with melted cheese — creamy and satisfying.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧀</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Schezwan Paneer Maggi</span><span class="menu-card-price">₹130</span></div><p class="menu-card-desc">Paneer cubes and Schezwan sauce — Chinese-style spicy twist.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌿</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Tandoori Maggi</span><span class="menu-card-price">₹130</span></div><p class="menu-card-desc">Maggi tossed in tandoori masala — smoky, spicy street-style innovation!</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🥚</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Egg Maggi</span><span class="menu-card-price">₹90</span></div><p class="menu-card-desc">Maggi with scrambled egg mixed in — protein-packed and full of flavour.</p></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🌽</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Corn Maggi</span><span class="menu-card-price">₹99</span></div><p class="menu-card-desc">Maggi loaded with sweet corn — perfect balance of sweet and spice.</p><span class="menu-card-badge">Veg</span></div></div>
+        <div class="menu-card"><div class="menu-card-icon">🧅</div><div class="menu-card-body"><div class="menu-card-header"><span class="menu-card-name">Fried Onion Peri Peri Maggi</span><span class="menu-card-price">₹99</span></div><p class="menu-card-desc">Peri peri masala and crispy fried onions — crunchy, spicy and delicious.</p><span class="menu-card-badge">Veg</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY STRIP ===== -->
+<section class="gallery">
+  <div class="container">
+    <div class="gallery-header" data-reveal>
+      <p class="section-tag">The Vibe</p>
+      <h2 class="section-title">Our <em>Ambience</em></h2>
+    </div>
+  </div>
+  <div class="gallery-strip-wrap">
+    <div class="gallery-strip" id="galleryStrip">
+      <img src="images/cafe-entrance.jpg" alt="Entrance" class="gallery-img" onerror="this.src='images/hero-bg.jpg'"/>
+      <img src="images/cafe-lamps.jpg" alt="Cozy lamps" class="gallery-img" onerror="this.src='images/hot-chocolate.jpg'"/>
+      <img src="images/pizza.jpg" alt="Pizza" class="gallery-img" onerror="this.src='images/rose-milk.jpg'"/>
+      <img src="images/sandwich.jpg" alt="Sandwich" class="gallery-img" onerror="this.src='images/hot-chocolate.jpg'"/>
+      <img src="images/hot-chocolate.jpg" alt="Hot Chocolate" class="gallery-img"/>
+      <img src="images/rose-milk.jpg" alt="Rose Milk" class="gallery-img"/>
+      <img src="images/hero-bg.jpg" alt="Cafe vibe" class="gallery-img"/>
+      <!-- Duplicate for seamless loop -->
+      <img src="images/cafe-entrance.jpg" alt="Entrance" class="gallery-img" onerror="this.src='images/hero-bg.jpg'"/>
+      <img src="images/cafe-lamps.jpg" alt="Lamps" class="gallery-img" onerror="this.src='images/hot-chocolate.jpg'"/>
+      <img src="images/pizza.jpg" alt="Pizza" class="gallery-img" onerror="this.src='images/rose-milk.jpg'"/>
+      <img src="images/sandwich.jpg" alt="Sandwich" class="gallery-img" onerror="this.src='images/hot-chocolate.jpg'"/>
+      <img src="images/hot-chocolate.jpg" alt="Hot Chocolate" class="gallery-img"/>
+      <img src="images/rose-milk.jpg" alt="Rose Milk" class="gallery-img"/>
+      <img src="images/hero-bg.jpg" alt="Cafe vibe" class="gallery-img"/>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="reviews-header" data-reveal>
+      <p class="section-tag">What Guests Say</p>
+      <h2 class="section-title">Loved by <em>Everyone</em></h2>
+    </div>
+    <div class="reviews-rating-bar" data-reveal>
+      <div class="reviews-big-score">4.8</div>
+      <div class="reviews-score-detail">
+        <div class="stars">★★★★★</div>
+        <div style="font-size:0.9rem;margin-top:0.25rem;color:var(--cream)">Exceptional</div>
+        <div class="reviews-count">Based on 2,111 Google reviews</div>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card" data-reveal data-reveal-delay="1">
+        <div class="review-header">
+          <div class="reviewer-avatar">M</div>
+          <div><div class="reviewer-name">MURALI KUMAR</div><div class="reviewer-meta">Local Guide · 1,427 reviews</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">Mud Cups is a cozy café known for its earthy vibe, neatly presented desserts and beverages, with rich flavours, decent portions, and a calm ambience that's perfect for relaxed catch-ups or solo coffee time.</p>
+        <div class="review-date">1 month ago</div>
+      </div>
+      <div class="review-card" data-reveal data-reveal-delay="2">
+        <div class="review-header">
+          <div class="reviewer-avatar">A</div>
+          <div><div class="reviewer-name">Akshaya!</div><div class="reviewer-meta">6 reviews</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">Delicious food. Cold boost and rose milk — a must try. A very calm, serene spot with beautiful mountain view, fresh air and warm lighting. Overall a good experience and a must try spot! Highly recommended.</p>
+        <div class="review-date">9 months ago</div>
+      </div>
+      <div class="review-card" data-reveal data-reveal-delay="3">
+        <div class="review-header">
+          <div class="reviewer-avatar">L</div>
+          <div><div class="reviewer-name">Lakshmi A</div><div class="reviewer-meta">Local Guide · 19 reviews</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">An amazing spot with a cozy vibe. Their pasta, momos, and especially the hot chocolate were absolutely delicious and made the experience truly memorable.</p>
+        <div class="review-date">6 months ago</div>
+      </div>
+      <div class="review-card" data-reveal data-reveal-delay="1">
+        <div class="review-header">
+          <div class="reviewer-avatar">D</div>
+          <div><div class="reviewer-name">David Prathick</div><div class="reviewer-meta">Local Guide · 304 reviews</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">I tried their masala tea and ginger tea. Worth for money. Good in taste. Clean and hygienic café. Must try. Wonderful ambiance. Spotted near Kovai Pudur.</p>
+        <div class="review-date">7 months ago</div>
+      </div>
+      <div class="review-card" data-reveal data-reveal-delay="2">
+        <div class="review-header">
+          <div class="reviewer-avatar">B</div>
+          <div><div class="reviewer-name">Bala Sam</div><div class="reviewer-meta">Local Guide · 48 reviews</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">Mud Cups Café is a delightful retreat with a peaceful ambiance perfect for unwinding. The staff are exceptionally friendly and attentive, always providing service with a smile.</p>
+        <div class="review-date">A year ago</div>
+      </div>
+      <div class="review-card" data-reveal data-reveal-delay="3">
+        <div class="review-header">
+          <div class="reviewer-avatar">S</div>
+          <div><div class="reviewer-name">Sowndarya Kmr</div><div class="reviewer-meta">10 reviews</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">A must-try spot for café lovers. So calm, so aesthetic. Especially their rooftop setup is a large open space to enjoy with family and friends. Their food tastes good and is worthy of the price.</p>
+        <div class="review-date">6 months ago</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ORDER BANNER ===== -->
+<div class="order-banner">
+  <div class="container">
+    <h2 class="order-banner-title">Craving Something? Order Online! 🛵</h2>
+    <p class="order-banner-sub">Get your MudCups favourites delivered right to your door.</p>
+    <a href="tel:06382243440" class="btn-light">📞 Call to Order: 063822 43440</a>
+  </div>
+</div>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div data-reveal>
+        <p class="section-tag">Find Us</p>
+        <h2 class="section-title">Visit <em>MudCups</em></h2>
+        <p class="section-sub" style="margin-bottom:2.5rem">We'd love to have you. Come for the coffee, stay for the vibes.</p>
+        <div class="contact-info-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-item-title">Address</div>
+            <div class="contact-item-text">258, Kovaipudur Main Rd, near VLB College Back Gate,<br>Gokulam Colony, Kulathupalayam, Kovaipudur,<br>Tamil Nadu 641042</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <div class="contact-item-title">Hours</div>
+            <div class="contact-item-text"><span style="color:#7dba4c;font-weight:600">Open Now</span> · Closes 10:30 PM daily</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-item-title">Phone</div>
+            <div class="contact-item-text"><a href="tel:06382243440" style="color:var(--amber-light);font-weight:600">063822 43440</a></div>
+          </div>
+        </div>
+        <div class="contact-ctas">
+          <a href="https://www.google.com/maps/place/mud+cups+coimbatore/data=!4m2!3m1!1s0x3ba85b4aa6f47aa1:0xf6ac09aec0585929" target="_blank" class="btn-primary">🗺️ Get Directions</a>
+          <a href="tel:06382243440" class="btn-secondary">📞 Call Us</a>
+        </div>
+      </div>
+      <div class="map-embed" data-reveal data-reveal-delay="2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2!2d76.9879!3d10.9575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b4aa6f47aa1%3A0xf6ac09aec0585929!2sMud%20Cups!5e0!3m2!1sen!2sin!4v1711470000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="MudCups Café location on Google Maps"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="nav-logo" style="margin-bottom:1rem">
+          <div class="nav-logo-icon">☕</div>
+          <span class="nav-logo-text">Mud<span>Cups</span></span>
+        </div>
+        <p class="footer-brand-desc">Reviving Traditional Taste — a cozy rooftop café in Coimbatore where every cup tells a story. Earthy vibes, warm hospitality, and unforgettable flavours.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/mudcups_coimbatore/" target="_blank" class="social-btn" aria-label="Instagram">📸</a>
+          <a href="https://www.google.com/maps/place/mud+cups+coimbatore/data=!4m2!3m1!1s0x3ba85b4aa6f47aa1:0xf6ac09aec0585929" target="_blank" class="social-btn" aria-label="Google Maps">📍</a>
+          <a href="tel:06382243440" class="social-btn" aria-label="Phone">📞</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Quick Links</div>
+        <div class="footer-links">
+          <a href="#about">Our Story</a>
+          <a href="#menu">Full Menu</a>
+          <a href="#specials">Must Try</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Visit Us</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Menu</div>
+        <div class="footer-links">
+          <a href="#menu">Drinks</a>
+          <a href="#menu">Pizzas & Pasta</a>
+          <a href="#menu">Burgers</a>
+          <a href="#menu">Momos</a>
+          <a href="#menu">Snacks</a>
+          <a href="#menu">Maggi</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-links">
+          <a href="tel:06382243440">063822 43440</a>
+          <a href="https://www.instagram.com/mudcups_coimbatore/" target="_blank">Instagram</a>
+          <a href="https://www.google.com/maps/place/mud+cups+coimbatore/data=!4m2!3m1!1s0x3ba85b4aa6f47aa1:0xf6ac09aec0585929" target="_blank">Get Directions</a>
+        </div>
+        <div style="margin-top:1.5rem;font-size:0.85rem;color:rgba(253,246,236,0.5);">
+          <div style="color:var(--amber);font-weight:600;margin-bottom:0.3rem">Open Daily</div>
+          Closes 10:30 PM<br/>
+          258, Kovaipudur Main Rd,<br/>Coimbatore 641042
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 MudCups Café, Coimbatore. All rights reserved.</span>
+      <span>Made with ❤️ for <a href="#home">MudCups</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
